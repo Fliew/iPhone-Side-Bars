@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30249223158181E50029BD36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30249222158181E50029BD36 /* UIKit.framework */; };
+		30249225158181E50029BD36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30249224158181E50029BD36 /* Foundation.framework */; };
+		30249227158181E50029BD36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30249226158181E50029BD36 /* CoreGraphics.framework */; };
+		3024922D158181E50029BD36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3024922B158181E50029BD36 /* InfoPlist.strings */; };
+		3024922F158181E50029BD36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3024922E158181E50029BD36 /* main.m */; };
+		30249233158181E50029BD36 /* FSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30249232158181E50029BD36 /* FSBAppDelegate.m */; };
+		3024923B158181E50029BD36 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3024923A158181E50029BD36 /* SenTestingKit.framework */; };
+		3024923C158181E50029BD36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30249222158181E50029BD36 /* UIKit.framework */; };
+		3024923D158181E50029BD36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30249224158181E50029BD36 /* Foundation.framework */; };
+		30249245158181E50029BD36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30249243158181E50029BD36 /* InfoPlist.strings */; };
+		30249248158181E50029BD36 /* iPhone_Side_BarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30249247158181E50029BD36 /* iPhone_Side_BarsTests.m */; };
+		30249258158182260029BD36 /* FSideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30249257158182260029BD36 /* FSideBarViewController.m */; };
+		3024925D158182D10029BD36 /* FSBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3024925C158182D10029BD36 /* FSBRootViewController.m */; };
+		30249261158182E50029BD36 /* FSBLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30249260158182E50029BD36 /* FSBLeftViewController.m */; };
+		30249265158183340029BD36 /* FSBRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30249264158183340029BD36 /* FSBRightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3024923E158181E50029BD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30249215158181E40029BD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3024921D158181E50029BD36;
+			remoteInfo = "iPhone Side Bars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3024921E158181E50029BD36 /* iPhone Side Bars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone Side Bars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30249222158181E50029BD36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30249224158181E50029BD36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30249226158181E50029BD36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3024922A158181E50029BD36 /* iPhone Side Bars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone Side Bars-Info.plist"; sourceTree = "<group>"; };
+		3024922C158181E50029BD36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3024922E158181E50029BD36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30249230158181E50029BD36 /* iPhone Side Bars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhone Side Bars-Prefix.pch"; sourceTree = "<group>"; };
+		30249231158181E50029BD36 /* FSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSBAppDelegate.h; sourceTree = "<group>"; };
+		30249232158181E50029BD36 /* FSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSBAppDelegate.m; sourceTree = "<group>"; };
+		30249239158181E50029BD36 /* iPhone Side BarsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone Side BarsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024923A158181E50029BD36 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		30249242158181E50029BD36 /* iPhone Side BarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone Side BarsTests-Info.plist"; sourceTree = "<group>"; };
+		30249244158181E50029BD36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30249246158181E50029BD36 /* iPhone_Side_BarsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone_Side_BarsTests.h; sourceTree = "<group>"; };
+		30249247158181E50029BD36 /* iPhone_Side_BarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_Side_BarsTests.m; sourceTree = "<group>"; };
+		30249256158182260029BD36 /* FSideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSideBarViewController.h; sourceTree = "<group>"; };
+		30249257158182260029BD36 /* FSideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSideBarViewController.m; sourceTree = "<group>"; };
+		3024925B158182D10029BD36 /* FSBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBRootViewController.h; sourceTree = "<group>"; };
+		3024925C158182D10029BD36 /* FSBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBRootViewController.m; sourceTree = "<group>"; };
+		3024925F158182E50029BD36 /* FSBLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBLeftViewController.h; sourceTree = "<group>"; };
+		30249260158182E50029BD36 /* FSBLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBLeftViewController.m; sourceTree = "<group>"; };
+		30249263158183340029BD36 /* FSBRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBRightViewController.h; sourceTree = "<group>"; };
+		30249264158183340029BD36 /* FSBRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBRightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3024921B158181E50029BD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30249223158181E50029BD36 /* UIKit.framework in Frameworks */,
+				30249225158181E50029BD36 /* Foundation.framework in Frameworks */,
+				30249227158181E50029BD36 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30249235158181E50029BD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024923B158181E50029BD36 /* SenTestingKit.framework in Frameworks */,
+				3024923C158181E50029BD36 /* UIKit.framework in Frameworks */,
+				3024923D158181E50029BD36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30249213158181E40029BD36 = {
+			isa = PBXGroup;
+			children = (
+				30249228158181E50029BD36 /* iPhone Side Bars */,
+				30249240158181E50029BD36 /* iPhone Side BarsTests */,
+				30249221158181E50029BD36 /* Frameworks */,
+				3024921F158181E50029BD36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3024921F158181E50029BD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3024921E158181E50029BD36 /* iPhone Side Bars.app */,
+				30249239158181E50029BD36 /* iPhone Side BarsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30249221158181E50029BD36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30249222158181E50029BD36 /* UIKit.framework */,
+				30249224158181E50029BD36 /* Foundation.framework */,
+				30249226158181E50029BD36 /* CoreGraphics.framework */,
+				3024923A158181E50029BD36 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30249228158181E50029BD36 /* iPhone Side Bars */ = {
+			isa = PBXGroup;
+			children = (
+				30249255158181F90029BD36 /* FSideBarViewController */,
+				30249259158182B10029BD36 /* Example Views */,
+				30249231158181E50029BD36 /* FSBAppDelegate.h */,
+				30249232158181E50029BD36 /* FSBAppDelegate.m */,
+				30249229158181E50029BD36 /* Supporting Files */,
+			);
+			path = "iPhone Side Bars";
+			sourceTree = "<group>";
+		};
+		30249229158181E50029BD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3024922A158181E50029BD36 /* iPhone Side Bars-Info.plist */,
+				3024922B158181E50029BD36 /* InfoPlist.strings */,
+				3024922E158181E50029BD36 /* main.m */,
+				30249230158181E50029BD36 /* iPhone Side Bars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30249240158181E50029BD36 /* iPhone Side BarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				30249246158181E50029BD36 /* iPhone_Side_BarsTests.h */,
+				30249247158181E50029BD36 /* iPhone_Side_BarsTests.m */,
+				30249241158181E50029BD36 /* Supporting Files */,
+			);
+			path = "iPhone Side BarsTests";
+			sourceTree = "<group>";
+		};
+		30249241158181E50029BD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30249242158181E50029BD36 /* iPhone Side BarsTests-Info.plist */,
+				30249243158181E50029BD36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30249255158181F90029BD36 /* FSideBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30249256158182260029BD36 /* FSideBarViewController.h */,
+				30249257158182260029BD36 /* FSideBarViewController.m */,
+			);
+			name = FSideBarViewController;
+			sourceTree = "<group>";
+		};
+		30249259158182B10029BD36 /* Example Views */ = {
+			isa = PBXGroup;
+			children = (
+				30249262158183260029BD36 /* Right View */,
+				3024925E158182D70029BD36 /* Left View */,
+				3024925A158182BD0029BD36 /* Root View */,
+			);
+			name = "Example Views";
+			sourceTree = "<group>";
+		};
+		3024925A158182BD0029BD36 /* Root View */ = {
+			isa = PBXGroup;
+			children = (
+				3024925B158182D10029BD36 /* FSBRootViewController.h */,
+				3024925C158182D10029BD36 /* FSBRootViewController.m */,
+			);
+			name = "Root View";
+			sourceTree = "<group>";
+		};
+		3024925E158182D70029BD36 /* Left View */ = {
+			isa = PBXGroup;
+			children = (
+				3024925F158182E50029BD36 /* FSBLeftViewController.h */,
+				30249260158182E50029BD36 /* FSBLeftViewController.m */,
+			);
+			name = "Left View";
+			sourceTree = "<group>";
+		};
+		30249262158183260029BD36 /* Right View */ = {
+			isa = PBXGroup;
+			children = (
+				30249263158183340029BD36 /* FSBRightViewController.h */,
+				30249264158183340029BD36 /* FSBRightViewController.m */,
+			);
+			name = "Right View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3024921D158181E50029BD36 /* iPhone Side Bars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024924B158181E50029BD36 /* Build configuration list for PBXNativeTarget "iPhone Side Bars" */;
+			buildPhases = (
+				3024921A158181E50029BD36 /* Sources */,
+				3024921B158181E50029BD36 /* Frameworks */,
+				3024921C158181E50029BD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhone Side Bars";
+			productName = "iPhone Side Bars";
+			productReference = 3024921E158181E50029BD36 /* iPhone Side Bars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30249238158181E50029BD36 /* iPhone Side BarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024924E158181E50029BD36 /* Build configuration list for PBXNativeTarget "iPhone Side BarsTests" */;
+			buildPhases = (
+				30249234158181E50029BD36 /* Sources */,
+				30249235158181E50029BD36 /* Frameworks */,
+				30249236158181E50029BD36 /* Resources */,
+				30249237158181E50029BD36 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3024923F158181E50029BD36 /* PBXTargetDependency */,
+			);
+			name = "iPhone Side BarsTests";
+			productName = "iPhone Side BarsTests";
+			productReference = 30249239158181E50029BD36 /* iPhone Side BarsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30249215158181E40029BD36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = F;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Fliew;
+			};
+			buildConfigurationList = 30249218158181E40029BD36 /* Build configuration list for PBXProject "iPhone Side Bars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30249213158181E40029BD36;
+			productRefGroup = 3024921F158181E50029BD36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3024921D158181E50029BD36 /* iPhone Side Bars */,
+				30249238158181E50029BD36 /* iPhone Side BarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3024921C158181E50029BD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024922D158181E50029BD36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30249236158181E50029BD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30249245158181E50029BD36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30249237158181E50029BD36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3024921A158181E50029BD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024922F158181E50029BD36 /* main.m in Sources */,
+				30249233158181E50029BD36 /* FSBAppDelegate.m in Sources */,
+				30249258158182260029BD36 /* FSideBarViewController.m in Sources */,
+				3024925D158182D10029BD36 /* FSBRootViewController.m in Sources */,
+				30249261158182E50029BD36 /* FSBLeftViewController.m in Sources */,
+				30249265158183340029BD36 /* FSBRightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30249234158181E50029BD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30249248158181E50029BD36 /* iPhone_Side_BarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3024923F158181E50029BD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3024921D158181E50029BD36 /* iPhone Side Bars */;
+			targetProxy = 3024923E158181E50029BD36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3024922B158181E50029BD36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3024922C158181E50029BD36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30249243158181E50029BD36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30249244158181E50029BD36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30249249158181E50029BD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3024924A158181E50029BD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3024924C158181E50029BD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone Side Bars/iPhone Side Bars-Prefix.pch";
+				INFOPLIST_FILE = "iPhone Side Bars/iPhone Side Bars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3024924D158181E50029BD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone Side Bars/iPhone Side Bars-Prefix.pch";
+				INFOPLIST_FILE = "iPhone Side Bars/iPhone Side Bars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3024924F158181E50029BD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone Side Bars.app/iPhone Side Bars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone Side Bars/iPhone Side Bars-Prefix.pch";
+				INFOPLIST_FILE = "iPhone Side BarsTests/iPhone Side BarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		30249250158181E50029BD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone Side Bars.app/iPhone Side Bars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone Side Bars/iPhone Side Bars-Prefix.pch";
+				INFOPLIST_FILE = "iPhone Side BarsTests/iPhone Side BarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30249218158181E40029BD36 /* Build configuration list for PBXProject "iPhone Side Bars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30249249158181E50029BD36 /* Debug */,
+				3024924A158181E50029BD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3024924B158181E50029BD36 /* Build configuration list for PBXNativeTarget "iPhone Side Bars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024924C158181E50029BD36 /* Debug */,
+				3024924D158181E50029BD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3024924E158181E50029BD36 /* Build configuration list for PBXNativeTarget "iPhone Side BarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024924F158181E50029BD36 /* Debug */,
+				30249250158181E50029BD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30249215158181E40029BD36 /* Project object */;
+}

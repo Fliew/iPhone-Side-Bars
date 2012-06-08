@@ -1,0 +1,6 @@
+*.DS_Store
+iPhone Side Bars.xcodeproj/*.pbxuser
+iPhone Side Bars.xcodeproj/*.mode*
+iPhone Side Bars.xcodeproj/xcuserdata*
+iPhone Side Bars.xcodeproj/project.xcworkspace
+iPhone Side Bars.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/UserInterfaceState.xcuserstate
